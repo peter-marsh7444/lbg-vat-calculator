@@ -12,7 +12,7 @@ pipeline {
     stage('Install') {
         steps {
             // Install the ReactJS dependencies
-          sudo sh "npm install"
+            sh "sudo npm install"
         }
     }
     stage('Test') {
